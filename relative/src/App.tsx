@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <div>
         <div className='head'><BsGraphUp/><h1 className='text-white text-justify text-xl'>Trending assets</h1></div>
+        {/* Top Icons */}
        <div className='h-0 w-full flex justify-around mb-12 '>
             <div className='circle' >
               <img className='w-full p-5' src={bitcoin} alt="" />
@@ -30,7 +31,7 @@ function App() {
             </div>
         </div>
 
-
+      {/* Bitcoin card */}
         <div className='h-96 w-full mt-0 flex justify-around gap-10 pl-6 pr-6 pb-10 '>
             <div className='cards'>
               <div className='cut'></div>
@@ -52,7 +53,7 @@ function App() {
               <p className='text-slate-600 text-center font-mono pt-2 '>Popular pairs</p>
             </div>
 
-
+          {/* Solana card */}
             <div className='cards'>
               <div className='cut'></div>
                <p className='text-slate-600 text-center mt-20 text-xl'>Solana (SOL)</p>
@@ -73,7 +74,7 @@ function App() {
               <p className='text-slate-600 text-center font-mono pt-2 '>Popular pairs</p>
             </div>
 
-
+            {/* Etharium card */}
             <div className='cards'>
               <div className='cut'></div>
                <p className='text-slate-600 text-center mt-20 text-xl'>Etharium (ETH)</p>
@@ -94,7 +95,7 @@ function App() {
               <p className='text-slate-600 text-center font-mono pt-2 '>Popular pairs</p>
             </div>
 
-
+          {/* Binance card */}
             <div className='cards'>
               <div className='cut'></div>
                <p className='text-slate-600 text-center mt-20 text-xl'>Binance USD (BUSD)</p>
@@ -115,7 +116,7 @@ function App() {
               <p className='text-slate-600 text-center font-mono pt-2 '>Popular pairs</p>
             </div>
 
-
+          {/* Shiba card */}
           <div className='cards'>
               <div className='cut'></div>
                <p className='text-slate-600 text-center mt-20 text-xl'>Shiba Inu (SHIB)</p>
